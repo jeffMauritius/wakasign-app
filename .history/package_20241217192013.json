@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "postgres:start": "docker compose up",
-    "prisma:studio": "prisma studio"
+    "prisma-studio": "prisma studio"
   },
   "dependencies": {
     "@prisma/client": "^6.0.1",

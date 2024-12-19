@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "postgres:start": "docker compose up",
+    "postgres": "docker run --name postgres -e POSTGRES_PASSWORD=postgres -d postgres",
     "prisma:studio": "prisma studio"
   },
   "dependencies": {

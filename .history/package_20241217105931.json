@@ -7,13 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "format": "prettier --write .",
-    "postgres:start": "docker compose up",
-    "prisma:studio": "prisma studio"
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@prisma/client": "^6.0.1",
-    "@prisma/studio": "^0.503.0",
     "@radix-ui/react-slot": "^1.1.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
